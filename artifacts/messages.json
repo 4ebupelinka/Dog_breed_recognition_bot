@@ -1,0 +1,45 @@
+{
+  "ru": {
+    "start_already_authorized": "Ты уже авторизован. Скинь картинку (фото или файл) 🙂",
+    "start_access_granted": "Доступ разрешён ✅\nСкинь картинку (фото или файл).",
+    "start_welcome": "Привет! Для доступа нужен ключ.\nОтправь ключ одним сообщением **или** запусти бота с ключом.\n\n{deeplink_info}",
+    "start_deeplink_info": "Можно запускать бот сразу с ключом (deep-link):\n`/start <KEY_HERE>`\nИли просто отправь мне ключ сообщением.",
+    "help_commands": "Команды:\n/start — старт\n/help — помощь\n/logout — удалить доступ (локально)\n\nПосле авторизации просто отправь фото/картинку файлом.",
+    "logout_success": "Ок, доступ удалён. Чтобы снова пользоваться — отправь ключ.",
+    "logout_not_authorized": "Ты и так не авторизован.",
+    "text_wrong_key": "Неверный ключ. Попробуй ещё раз.",
+    "text_send_image": "Скинь картинку (фото или файл).",
+    "photo_need_key": "Сначала нужен ключ доступа. Отправь ключ или `/start <ключ>`.",
+    "document_read_error": "Не смог прочитать изображение из файла. Попробуй другое изображение.",
+    "document_convert_error": "Не смог корректно преобразовать файл. Попробуй JPG/PNG/WebP.",
+    "document_unsupported_format": "Неподдерживаемый формат файла. Пришли JPG/PNG/WebP (или фото напрямую).",
+    "queue_added_single": "Принял. Добавил в очередь. Позиция примерно: {qpos}. Ждите 🙂",
+    "queue_added_multiple": "Принял {count} изображений. Добавил в очередь. Позиция примерно: {qpos}. Ждите 🙂",
+    "result_image_prefix": "Изображение {i} — {breed} ({prob}%)",
+    "result_dog_not_found": "Изображение {i} — не удалось найти собаку (уверенность: {prob}%)",
+    "error_recognition": "Ошибка при распознавании: {error}",
+    "error_bot_token": "Заполни BOT_TOKEN в переменной окружения или в коде."
+  },
+  "eng": {
+    "start_already_authorized": "You are already authorized. Send an image (photo or file) 🙂",
+    "start_access_granted": "Access granted ✅\nSend an image (photo or file).",
+    "start_welcome": "Hello! An access key is required.\nSend the key in a message **or** start the bot with a key.\n\n{deeplink_info}",
+    "start_deeplink_info": "You can start the bot with a key (deep-link):\n`/start <KEY_HERE>`\nOr just send me the key in a message.",
+    "help_commands": "Commands:\n/start — start\n/help — help\n/logout — remove access (locally)\n\nAfter authorization, just send a photo/image file.",
+    "logout_success": "Ok, access removed. To use again — send the key.",
+    "logout_not_authorized": "You are not authorized anyway.",
+    "text_wrong_key": "Wrong key. Try again.",
+    "text_send_image": "Send an image (photo or file).",
+    "photo_need_key": "Access key required first. Send the key or `/start <key>`.",
+    "document_read_error": "Could not read image from file. Try another image.",
+    "document_convert_error": "Could not properly convert file. Try JPG/PNG/WebP.",
+    "document_unsupported_format": "Unsupported file format. Send JPG/PNG/WebP (or photo directly).",
+    "queue_added_single": "Received. Added to queue. Approximate position: {qpos}. Wait 🙂",
+    "queue_added_multiple": "Received {count} images. Added to queue. Approximate position: {qpos}. Wait 🙂",
+    "result_image_prefix": "Image {i} — {breed} ({prob}%)",
+    "result_dog_not_found": "Image {i} — could not find a dog (confidence: {prob}%)",
+    "error_recognition": "Recognition error: {error}",
+    "error_bot_token": "Fill BOT_TOKEN in environment variable or in code."
+  }
+}
+
